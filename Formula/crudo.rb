@@ -1,9 +1,8 @@
 class Crudo < Formula
   desc "Configuration-driven JSON APIs backed by SQL"
   homepage "https://github.com/melonask/crudo"
-  url "https://github.com/melonask/crudo/archive/05e9648ed9555d0116228da63aabd0f98a1e0950.tar.gz"
-  version "0.1.0"
-  sha256 "982f8899c4fef7c99158fb7c922eacdc5673ddba986610166a36d06f0891fa66"
+  url "https://github.com/melonask/crudo/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "df0c5342fdcadb416f6529410f852717aa9a1270c3bffd08cccae6385530721d"
   license "MIT"
   head "https://github.com/melonask/crudo.git", branch: "main"
 
