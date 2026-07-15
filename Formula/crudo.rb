@@ -1,8 +1,8 @@
 class Crudo < Formula
   desc "Configuration-driven JSON APIs backed by SQL"
   homepage "https://github.com/melonask/crudo"
-  url "https://github.com/melonask/crudo/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "e02cadf1ecda386a0831d792e18ab88045e74b8bb3eebbbd0c2ed4feaa548a16"
+  url "https://github.com/melonask/crudo/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "08b4444ee94c622db377ebf9ba943f816a125358b1e6315c88bcb49d6c362979"
   license "MIT"
   head "https://github.com/melonask/crudo.git", branch: "main"
 
@@ -13,6 +13,6 @@ class Crudo < Formula
   end
 
   test do
-    assert_match "crudo 0.1.1", shell_output("#{bin}/crudo --version")
+    assert_match "crudo 0.1.2", shell_output("#{bin}/crudo --version")
   end
 end
